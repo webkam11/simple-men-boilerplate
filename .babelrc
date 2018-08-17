@@ -1,0 +1,18 @@
+{
+    "plugins": ["babel-plugin-transform-object-rest-spread"],
+    "ignore": ["node_modules/**"],
+    "presets": ["env"],
+    "env": {
+        "development": {
+            "presets": ["env"]
+        },
+        "production": {
+            "presets": [["env", { "modules": false }]],
+            "plugins": ["external-helpers"]
+        },
+        "test": {
+            "presets": ["env"],
+            "plugins": ["istanbul"]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+node_modules
+coverage
+build
+dist
+tmp
+npm-debug.log.*
+.nyc_output
+.eslintcache
+.env
