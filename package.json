@@ -1,7 +1,7 @@
 {
   "name": "simple-js-boilerplate",
   "version": "1.0.0",
-  "description": "A simple MongoDB, Express and Node boilerplate",
+  "description": "A simple MongoDB, Express and Node backend boilerplate",
   "main": "server.js",
   "nyc": {
     "sourceMap": false,
