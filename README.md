@@ -1,27 +1,16 @@
-# Simple JS boilerplate
+# Simple MEN boilerplate
 
-A simple JavaScript boilerplate for ES6+ with Babel.
+A simple MEN (MongoDB, Express and Node) backend boilerplate.
+Add your own client-side.
 
 ## Installation
 
 Git clone the Github repository and use npm to install the project dependencies.
 
 ```
-$ git clone https://github.com/kamlouis/simple-js-boilerplate.git
-$ cd simple-js-boilerplate
+$ git clone https://github.com/kamlouis/simple-men-boilerplate.git
+$ cd simple-men-boilerplate
 $ npm i
-```
-
-## Testing
-
-Uses Mocha, Chai and Istanbul.
-
-```
-$ npm test //Run tests
-```
-
-```
-$ npm run cover //Run tests with coverage
 ```
 
 ## Linting
@@ -37,3 +26,7 @@ Uses Prettier
 ## License
 
 Mit License: [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
+
+## Credits
+
+Based on the mern shopping list by [Brad Traversy](https://github.com/bradtraversy/mern_shopping_list)

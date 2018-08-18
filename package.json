@@ -1,57 +1,39 @@
 {
   "name": "simple-js-boilerplate",
   "version": "1.0.0",
-  "description": "Simple JS boilerplate",
-  "main": "index.js",
+  "description": "A simple MongoDB, Express and Node boilerplate",
+  "main": "server.js",
   "nyc": {
     "sourceMap": false,
     "instrument": false
   },
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "test": "mocha --require babel-core/register",
-    "cover": "cross-env NODE_ENV=test nyc --reporter=html --reporter=text npm t"
+    "start": "nodemon server/server.js"
   },
   "keywords": [
-    "es6",
-    "webpack",
-    "babel",
-    "mocha",
-    "chai",
-    "istanbul",
-    "eslint",
-    "prettier"
+    "MongoDB",
+    "Express",
+    "Node",
+    "ESLint",
+    "Prettier"
   ],
   "author": "Kam Louis",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-istanbul": "^4.1.6",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "babel-plugin-transform-object-assign": "^6.22.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "chai": "^4.1.2",
-    "cross-env": "^5.2.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^2.6.2",
-    "html-webpack-plugin": "^3.2.0",
-    "mocha": "^5.2.0",
-    "nyc": "^12.0.2",
-    "prettier": "^1.14.2",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
+    "nodemon": "^1.18.3",
+    "prettier": "^1.14.2"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "nodemon": "^1.18.3"
+    "helmet": "^3.13.0",
+    "mongoose": "^5.2.9"
   }
 }
