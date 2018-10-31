@@ -13,7 +13,7 @@ const users = require('./routes/api/user');
 
 const app = express();
 const { PORT = 3000 } = process.env;
-const db = config.mongo.url;
+const db = config.mongo.uri;
 
 app.use(helmet());
 app.use(bodyParser.json());

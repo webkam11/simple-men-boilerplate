@@ -1,5 +1,5 @@
 module.exports = () => ({
   mongo: {
-    url: process.env.DB_URL,
+    uri: process.env.DB_URI,
   },
 });

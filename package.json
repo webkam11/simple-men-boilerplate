@@ -20,13 +20,13 @@
   "author": "Kam Louis",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.3.0",
+    "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^3.0.1",
+    "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^2.6.2",
-    "nodemon": "^1.18.3",
-    "prettier": "^1.14.2"
+    "eslint-plugin-prettier": "^3.0.0",
+    "nodemon": "^1.18.5",
+    "prettier": "^1.14.3"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
