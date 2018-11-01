@@ -28,9 +28,18 @@ Inside the .env file add the following:
 DB_URI=mongodb://localhost:27017/<NAME_OF_MONGO_DATABASE>
 ```
 
-Local MongoDB usage.
+### Local MongoDB usage.
 
 Run your local MongoDB instance (If unsure, please see link for local MongoDB installation for Mac).
+
+### Run Server
+
+```
+npm start
+```
+
+Use Postman to test queries.
+See available REST methods via server/routes/api/user.js
 
 ## Linting
 
