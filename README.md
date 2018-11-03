@@ -80,7 +80,3 @@ Uses Prettier
 ## License
 
 Mit License: [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
-
-## Credits
-
-Based on the mern shopping list by [Brad Traversy](https://github.com/bradtraversy/mern_shopping_list)
