@@ -5,7 +5,7 @@ Add your own client-side.
 
 ## Prerequisite
 
-You must have MongoDB installed locally or a MongoDB account (There are free/paid accounts online).
+You must have MongoDB installed locally or a MongoDB account (There are free/paid accounts online) in order to perfom CRUD operations on the database provided by MongoDB.
 
 Local MongoDB setup [for Mac](https://medium.com/@himeshvats19/up-running-with-mongodb-in-7-simple-steps-using-brew-on-macos-sierra-785730a7e6b0)
 
@@ -25,12 +25,29 @@ Create a .env file in the root directory.
 Inside the .env file add the following:
 
 ```
-DB_URI=mongodb://localhost:27017/<NAME_OF_MONGO_DATABASE>
+DB_PORT=27017
+DB_HOST=localhost
+DB_NAME=<NAME_OF_MONGO_DATABASE>
 ```
 
-### Local MongoDB usage.
+### Run MongoDB
 
-Run your local MongoDB instance (If unsure, please see link for local MongoDB installation for Mac).
+If you installed on macOS via homebrew, please follow instructions below.
+
+Open the terminal and switch to the folder below:
+
+```
+$ cd /usr/local/Cellar/mongodb/4.0.2
+```
+
+Please note the last folder will be based on your MongoDB version number at the time you installed/updated MongoDB.
+At the time of writing my MongoDB version number is 4.0.2.
+
+Then execute the following command:
+
+```
+$ mongod
+```
 
 ### Run Server
 
@@ -38,8 +55,17 @@ Run your local MongoDB instance (If unsure, please see link for local MongoDB in
 npm start
 ```
 
-Use Postman to test queries.
-See available REST methods via server/routes/api/user.js
+### HTTP Verbs
+
+Here is an overview of the routes we will require, what they will do, and the HTTP Verbs used to access them.
+
+| HTTP METHOD    | GET               | POST          | PUT                         | DELETE           |
+| -------------- | ----------------- | ------------- | --------------------------- | ---------------- |
+| CRUD OP        | READ              | CREATE        | UPDATE                      | DELETE           |
+| /api/users     | Get all the users | Create a user |                             | Delete all users |
+| /api/users/:id | Get a single user |               | Update a user with new info | Delete a user    |
+
+Install [Postman](https://www.getpostman.com/) to test our routes.
 
 ## Linting
 

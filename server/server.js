@@ -35,7 +35,6 @@ mongoose
   .catch(err => console.log(err));
 
 // Use routes
-
 app.use('/api/users', users);
 
 app.get('/api', (req, res) => {
