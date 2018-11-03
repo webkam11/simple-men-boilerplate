@@ -1,12 +1,8 @@
 {
-  "name": "simple-js-boilerplate",
+  "name": "simple-men-boilerplate",
   "version": "1.0.0",
-  "description": "A simple MongoDB, Express and Node backend boilerplate",
+  "description": "A simple MEN (MongoDB, Express and Node) backend boilerplate",
   "main": "server.js",
-  "nyc": {
-    "sourceMap": false,
-    "instrument": false
-  },
   "scripts": {
     "start": "nodemon server/server.js"
   },
