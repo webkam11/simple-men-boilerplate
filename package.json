@@ -16,20 +16,20 @@
   "author": "Kam Louis",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.8.0",
+    "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "nodemon": "^1.18.5",
-    "prettier": "^1.14.3"
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "cors": "^2.8.4",
-    "dotenv": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
     "express": "^4.16.3",
-    "helmet": "^3.13.0",
-    "mongoose": "^5.2.9"
+    "helmet": "^3.15.1",
+    "mongoose": "^5.4.15"
   }
 }
